@@ -1,0 +1,7 @@
+packages:
+  - git: "https://github.com/matt-winkler/cross-project-docs-target.git"
+    revision: 1.0.1
+  # this is here in case any changes are made to the source project (e.g. dbt sources, additional models etc.) independent of the target
+  - git: "https://github.com/matt-winkler/cross-project-docs-source.git"
+    revision: 1.0.2
+  # you would add additional source-target projects as needed below to establish lineage / documentation relationships
